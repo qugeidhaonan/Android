@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CourseTable</string>
+    <string name="empty_course">该老师这周没有课程安排</string>
+    <string name="teacher_tip">教师</string>
+    <string name="code_error">获取验证码失败，请重试</string>
+    <string name="check_name">该老师不存在</string>
+    <string name="name_empty">老师名不能为空</string>
+    <string name="code_validate">验证码必须是四位</string>
+
+</resources>

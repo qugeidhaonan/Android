@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert"
+    android:theme="@style/AppBaseTheme"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/coursename"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:padding="5dp"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/courseinfo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:padding="5dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/cplace"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:padding="5dp"
+        android:textSize="14sp"/>
+</LinearLayout>
